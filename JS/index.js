@@ -2,7 +2,7 @@ const btn = document.querySelector(".buttonGetBracket")
 const output = document.querySelector(".output")
 
 const fetchBrackets = async()=>{
-    const response = await fetch("http://localhost:3000/fetchBrackets")
+    const response = await fetch("https://mkmiddleman.onrender.com/fetchBrackets")
     const result = response.json()
     return result
 }
