@@ -7,8 +7,30 @@
 
     max-width: 15rem;
 }
+.firstBracket, .secondBracket, .thirdBracket{
+    width: 30vw;
+}
+.secondBracket{
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17rem;
+}
+.thirdBracket{
+    padding-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17rem;
+
+}
 .name{
     border: 0.25rem solid black;
     padding: 1rem 2rem;
     width: 15rem;
+}
+.output{
+    width: 100vw;
+    display: flex;
 }
